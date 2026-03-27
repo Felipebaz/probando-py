@@ -1,0 +1,17 @@
+def saludar (nombre) :
+    mensaje = f"Hola, {nombre}, bienvenido al curso!!"
+    return mensaje
+saludo = saludar("Juan")
+print (saludo)
+
+
+def calcular_impuesto(precio_base, tasa=0.21) :
+    impuesto = precio_base * tasa
+    return impuesto
+
+print( calcular_impuesto(100) )
+
+print (calcular_impuesto(1000, tasa=0.15) )
+
+
+
